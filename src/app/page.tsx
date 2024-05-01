@@ -103,7 +103,7 @@ export default function Home() {
                 className="text-xl font-bold text-neutral-600 dark:text-white "
               >
                 Pro Plan
-                <h2 className="text-6xl ">₹3500.0</h2>
+                <h2 className="text-6xl ">₹2500.0</h2>
               </CardItem>
               <CardItem
                 translateZ="60"
