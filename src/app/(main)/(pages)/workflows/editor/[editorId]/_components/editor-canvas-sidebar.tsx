@@ -1,4 +1,3 @@
-
 'use client'
 import { EditorCanvasTypes, EditorNodeType } from '@/lib/types'
 import { useNodeConnections } from '@/providers/connections-provider'
@@ -18,8 +17,8 @@ import {
   fetchBotSlackChannels,
   onConnections,
   onDragStart,
-} from '@/lib/editor-utils'
-import EditorCanvasIconHelper from './editor-canvas-card-icon-hepler'
+} from '@/lib/editor-utlis'
+import EditorCanvasIconHelper from './editor-canvas-card-icon-helper'
 import {
   Accordion,
   AccordionContent,
