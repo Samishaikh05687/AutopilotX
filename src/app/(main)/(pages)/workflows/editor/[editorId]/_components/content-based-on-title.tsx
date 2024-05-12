@@ -1,4 +1,3 @@
-
 import { AccordionContent } from '@/components/ui/accordion'
 import { ConnectionProviderProps } from '@/providers/connections-provider'
 import { EditorState } from '@/providers/editor-provider'
@@ -12,7 +11,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
-import { onContentChange } from '@/lib/editor-utils'
+import { onContentChange } from '@/lib/editor-utlis'
 import GoogleFileDetails from './google-file-details'
 import GoogleDriveFiles from './google-drive-files'
 import ActionButton from './action-button'

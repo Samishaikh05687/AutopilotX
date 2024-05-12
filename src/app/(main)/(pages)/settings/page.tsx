@@ -1,4 +1,3 @@
-
 import ProfileForm from '@/components/forms/profile-form'
 import React from 'react'
 import ProfilePicture from './_components/profile-picture'
@@ -41,6 +40,7 @@ const Settings = async (props: Props) => {
   }
 
   const updateUserInfo = async (name: string) => {
+   
     'use server'
 
     const updateUser = await db.user.update({
